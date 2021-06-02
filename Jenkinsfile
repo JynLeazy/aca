@@ -10,7 +10,7 @@ pipeline {
     stage('Unit') {
       steps {
         sh 'mkdir app'
-        dir(path: '/app') {
+        dir(path: 'app') {
           sh 'ls'
         }
 
